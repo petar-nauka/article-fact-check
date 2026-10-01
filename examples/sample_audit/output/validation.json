@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "errors": [],
+  "warnings": [],
+  "audit_status": "partial",
+  "demo_data": true,
+  "limitations": [
+    "Illustrative example: the verdicts and findings shown have not been independently verified for publication."
+  ],
+  "unchecked_items": [
+    "Before real use, check every claim against the cited primary source and the exact locator."
+  ],
+  "reliability_score": {
+    "score": null,
+    "total_weight": 0.0,
+    "penalties": 0.0,
+    "grade": "Partial audit"
+  },
+  "rendered_on": "2026-10-01"
+}

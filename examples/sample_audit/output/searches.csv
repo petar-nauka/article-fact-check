@@ -1,0 +1,6 @@
+id,claim_ids,query,kind,language,run_date,surface,status,result_note,audit_status,demo_data
+Q001,C0001,"""IEA"" ""Global Hydrogen Review 2024"" Europe installed capacity electrolysis",primary,en,2026-09-29,web,completed,Found the full IEA report with country-level statistics.,partial,True
+Q002,C0002,European Hydrogen Bank pilot auction 720 million award results,exact,en,2026-09-29,web,completed,Confirmed by the European Commission press release of 30 April 2024.,partial,True
+Q003,C0003;C0004,LCOH green hydrogen cost vs fossil SMR Europe 2024 EUR per kg,scholarly,en,2026-09-29,web,completed,Comparative IEA and BNEF analysis of clean hydrogen production costs.,partial,True
+Q004,C0005,Directive (EU) 2023/2413 RED III Article 22a RFNBO industry 42 percent,primary,en,2026-09-29,web,completed,EUR-Lex text of Directive 2023/2413.,partial,True
+Q005,C0006;C0007,Zagore hydrogen valley Stara Zagora funding 8.2 million EUR Clean Hydrogen JU,primary,en,2026-09-29,web,completed,Official sources for the Stara Zagora project.,partial,True

@@ -1,0 +1,20 @@
+# Set default behavior to automatically normalize line endings
+* text=auto eol=lf
+
+# Explicitly declare text files you want to always be normalized and converted
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.html text eol=lf
+*.csv text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+
+# Binary files
+*.docx binary
+*.pdf binary
+*.zip binary
+*.png binary
+*.jpg binary

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Article Fact-Check"
+  short_description: "Check article claims against traceable sources"
+  default_prompt: "Use $article-fact-check to check the facts in this article, document the evidence, and produce a report that states its limitations."

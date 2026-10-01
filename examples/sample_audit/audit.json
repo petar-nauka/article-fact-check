@@ -1,0 +1,432 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "title": "Green Hydrogen in the EU: Investment, Regulation and Real Capacity 2024-2026",
+    "source_path": "frozen-article.md",
+    "original_source_path": "examples/sample_article.md",
+    "document_sha256": "a80b7d0f7d5a816c1bd3c6e29afb1484b78f3021d2b7b9780950a633a9905aaa",
+    "original_document_sha256": "a80b7d0f7d5a816c1bd3c6e29afb1484b78f3021d2b7b9780950a633a9905aaa",
+    "language": "en",
+    "article_reference_date": "2024-12-31",
+    "analysis_date": "2026-09-29",
+    "scope": "demonstration",
+    "status": "partial",
+    "decomposition_complete": false,
+    "omission_pass_complete": false,
+    "supplied_sources_audited": false,
+    "demo_data": true
+  },
+  "paragraphs": [
+    {
+      "id": "P001",
+      "type": "heading",
+      "locator": "block:1",
+      "text": "# Green Hydrogen in the EU: Investment, Regulation and Real Capacity 2024-2026",
+      "claim_ids": [],
+      "exclusion": "heading_or_navigation"
+    },
+    {
+      "id": "P002",
+      "type": "paragraph",
+      "locator": "block:2",
+      "text": "In 2024, the European Union recorded a 35% increase in installed electrolyser capacity for clean hydrogen, reaching a total of 1.2 GW of operational capacity. This jump is driven mainly by the funding mechanism of the European Hydrogen Bank.",
+      "claim_ids": [
+        "C0001",
+        "C0002"
+      ],
+      "exclusion": ""
+    },
+    {
+      "id": "P003",
+      "type": "paragraph",
+      "locator": "block:3",
+      "text": "According to a report by the International Energy Agency (IEA), the average production cost of green hydrogen in Europe fell to EUR 2.50 per kilogram at the end of 2024. This makes green hydrogen cheaper than hydrogen produced from natural gas.",
+      "claim_ids": [
+        "C0003",
+        "C0004"
+      ],
+      "exclusion": ""
+    },
+    {
+      "id": "P004",
+      "type": "paragraph",
+      "locator": "block:4",
+      "text": "The Renewable Energy Directive (RED III) requires industry in the member states to use at least 42% renewable fuels of non-biological origin (RFNBO) by 2030 and 60% by 2035.",
+      "claim_ids": [
+        "C0005"
+      ],
+      "exclusion": ""
+    },
+    {
+      "id": "P005",
+      "type": "paragraph",
+      "locator": "block:5",
+      "text": "Bulgaria has started building its first national hydrogen valley, \"Zagore\", near Stara Zagora with a budget of EUR 300 million, and the project has already been fully commissioned for commercial operation as of January 2025.",
+      "claim_ids": [
+        "C0006",
+        "C0007"
+      ],
+      "exclusion": ""
+    }
+  ],
+  "claims": [
+    {
+      "id": "C0001",
+      "paragraph_ids": [
+        "P002"
+      ],
+      "original_text": "reaching a total of 1.2 GW of operational capacity",
+      "normalized_claim": "Operational electrolyser capacity in the EU reached 1.2 GW by the end of 2024",
+      "claim_types": [
+        "quantitative",
+        "factual"
+      ],
+      "risk": "high",
+      "verdict": "PARTLY_SUPPORTED",
+      "confidence": "high",
+      "research_complete": true,
+      "rationale": "Installed operational capacity in the EU in 2024 is roughly 0.6 GW. The 1.2 GW figure includes planned or under-construction capacity, not plants actually operating at that date.",
+      "recommended_edit": "Replace “reaching a total of 1.2 GW of operational capacity” with “reaching about 580 MW of operational capacity, with more than 1.2 GW under construction”.",
+      "editor_comment": "Operational capacity is conflated with the total project pipeline.",
+      "evidence_links": [
+        {
+          "source_id": "S001",
+          "stance": "supports",
+          "locator": "Chapter 2, p. 45, Figure 2.4",
+          "finding": "Installed operational electrolysis capacity in Europe stands at approx. 580 MW in 2024."
+        }
+      ],
+      "search_ids": [
+        "Q001"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "C0002",
+      "paragraph_ids": [
+        "P002"
+      ],
+      "original_text": "This jump is driven mainly by the funding mechanism of the European Hydrogen Bank.",
+      "normalized_claim": "The European Hydrogen Bank provides key funding support for new EU projects",
+      "claim_types": [
+        "causal",
+        "factual"
+      ],
+      "risk": "medium",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "research_complete": true,
+      "rationale": "The European Hydrogen Bank ran its first successful auction in 2024, awarding EUR 720 million from the Innovation Fund to 7 projects.",
+      "recommended_edit": "",
+      "editor_comment": "",
+      "evidence_links": [
+        {
+          "source_id": "S002",
+          "stance": "supports",
+          "locator": "Press Release IP/24/2333",
+          "finding": "Commission awards €720 million for 7 renewable hydrogen projects via the European Hydrogen Bank."
+        }
+      ],
+      "search_ids": [
+        "Q002"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "C0003",
+      "paragraph_ids": [
+        "P003"
+      ],
+      "original_text": "the average production cost of green hydrogen in Europe fell to EUR 2.50 per kilogram at the end of 2024",
+      "normalized_claim": "The production cost of green hydrogen in Europe in 2024 is EUR 2.50/kg",
+      "claim_types": [
+        "quantitative",
+        "scientific"
+      ],
+      "risk": "critical",
+      "verdict": "CONTRADICTED",
+      "confidence": "high",
+      "research_complete": true,
+      "rationale": "The actual levelised cost (LCOH) of green hydrogen in Europe in 2024 is between EUR 5.50 and 7.80/kg because of electricity prices and CAPEX inflation. EUR 2.50/kg is a long-term projection for 2030 and later.",
+      "recommended_edit": "Replace “fell to EUR 2.50 per kilogram” with “ranges between EUR 5.50 and 7.80 per kilogram, depending on electricity prices”.",
+      "editor_comment": "Understated by more than half compared with actual market levels.",
+      "evidence_links": [
+        {
+          "source_id": "S001",
+          "stance": "refutes",
+          "locator": "Chapter 4: Costs and Economics, p. 88",
+          "finding": "Levelised cost of renewable hydrogen in Europe in 2024 averages between 5.50 and 7.80 EUR/kg."
+        }
+      ],
+      "search_ids": [
+        "Q003"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "C0004",
+      "paragraph_ids": [
+        "P003"
+      ],
+      "original_text": "This makes green hydrogen cheaper than hydrogen produced from natural gas.",
+      "normalized_claim": "Green hydrogen in Europe is cheaper than grey (fossil) hydrogen",
+      "claim_types": [
+        "comparative",
+        "factual"
+      ],
+      "risk": "critical",
+      "verdict": "CONTRADICTED",
+      "confidence": "high",
+      "research_complete": true,
+      "rationale": "Grey hydrogen (from methane via SMR) cost about EUR 2.10-2.60/kg in the EU in 2024, which makes it significantly cheaper than green hydrogen (EUR 5.50/kg and above).",
+      "recommended_edit": "Replace the claim with: “However, without subsidies green hydrogen still costs about twice as much as hydrogen from natural gas.”",
+      "editor_comment": "Factually wrong comparison that is highly misleading.",
+      "evidence_links": [
+        {
+          "source_id": "S001",
+          "stance": "refutes",
+          "locator": "Executive Summary, Table 1.1",
+          "finding": "Fossil SMR hydrogen costs 2.10-2.60 EUR/kg compared to 5.50+ for renewable H2."
+        }
+      ],
+      "search_ids": [
+        "Q003"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "C0005",
+      "paragraph_ids": [
+        "P004"
+      ],
+      "original_text": "requires industry in the member states to use at least 42% renewable fuels of non-biological origin (RFNBO) by 2030 and 60% by 2035",
+      "normalized_claim": "RED III requires a 42% RFNBO share in industry by 2030 and 60% by 2035",
+      "claim_types": [
+        "legal",
+        "quantitative"
+      ],
+      "risk": "high",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "research_complete": true,
+      "rationale": "Article 22a(1) of Directive (EU) 2023/2413 sets exactly these targets for hydrogen used in industry.",
+      "recommended_edit": "",
+      "editor_comment": "",
+      "evidence_links": [
+        {
+          "source_id": "S003",
+          "stance": "supports",
+          "locator": "Article 22a(1)",
+          "finding": "RFNBO share in industry: at least 42% by 2030 and 60% by 2035."
+        }
+      ],
+      "search_ids": [
+        "Q004"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "C0006",
+      "paragraph_ids": [
+        "P005"
+      ],
+      "original_text": "Bulgaria has started building its first national hydrogen valley, \"Zagore\", near Stara Zagora",
+      "normalized_claim": "The Zagore project near Stara Zagora is Bulgaria's first hydrogen valley",
+      "claim_types": [
+        "factual",
+        "superlative"
+      ],
+      "risk": "medium",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "research_complete": true,
+      "rationale": "The Hydrogen Valley Zagore project is the first hydrogen valley in Bulgaria registered and supported by the Clean Hydrogen Partnership.",
+      "recommended_edit": "",
+      "editor_comment": "",
+      "evidence_links": [
+        {
+          "source_id": "S004",
+          "stance": "supports",
+          "locator": "Zagore Hydrogen Valley Profile",
+          "finding": "Officially awarded first Bulgarian Hydrogen Valley by the Clean Hydrogen Joint Undertaking."
+        }
+      ],
+      "search_ids": [
+        "Q005"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "C0007",
+      "paragraph_ids": [
+        "P005"
+      ],
+      "original_text": "with a budget of EUR 300 million, and the project has already been fully commissioned for commercial operation as of January 2025",
+      "normalized_claim": "The Zagore hydrogen valley costs EUR 300 million and has been in commercial operation since January 2025",
+      "claim_types": [
+        "quantitative",
+        "current_status"
+      ],
+      "risk": "high",
+      "verdict": "CONTRADICTED",
+      "confidence": "high",
+      "research_complete": true,
+      "rationale": "The Clean Hydrogen Partnership grant is EUR 8.2 million and the planned investment for the initial phase is about EUR 16-20 million (not EUR 300 million). Implementation started in 2024-2025, and operation is expected to be phased in by 2028-2029.",
+      "recommended_edit": "Replace with: “with EU funding of EUR 8.2 million; pilot operation is expected to start in 2026-2027”.",
+      "editor_comment": "Budget scale is wrong and commercial operation is announced prematurely.",
+      "evidence_links": [
+        {
+          "source_id": "S004",
+          "stance": "refutes",
+          "locator": "Factsheet & Timeline",
+          "finding": "Total project grant: EUR 8.2 million. Timeline: 2023-2028."
+        }
+      ],
+      "search_ids": [
+        "Q005"
+      ],
+      "notes": ""
+    }
+  ],
+  "sources": [
+    {
+      "id": "S001",
+      "title": "Global Hydrogen Review 2024",
+      "url": "https://www.iea.org/reports/global-hydrogen-review-2024",
+      "source_uri": "https://www.iea.org/reports/global-hydrogen-review-2024",
+      "author_or_org": "International Energy Agency (IEA)",
+      "publication_date": "2024-09-20",
+      "access_date": "2026-09-29",
+      "source_type": "report",
+      "source_tier": "strong_synthesis",
+      "access_status": "full_text",
+      "origin_cluster": "IEA",
+      "supplied_by_author": false,
+      "contribution": "Global data on hydrogen capacity, costs and market trends",
+      "limitations": ""
+    },
+    {
+      "id": "S002",
+      "title": "European Hydrogen Bank: First Auction Results",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_24_2333",
+      "source_uri": "https://ec.europa.eu/commission/presscorner/detail/en/ip_24_2333",
+      "author_or_org": "European Commission",
+      "publication_date": "2024-04-30",
+      "access_date": "2026-09-29",
+      "source_type": "official",
+      "source_tier": "primary",
+      "access_status": "full_text",
+      "origin_cluster": "EU Commission",
+      "supplied_by_author": false,
+      "contribution": "Official results of the Hydrogen Bank pilot auction",
+      "limitations": ""
+    },
+    {
+      "id": "S003",
+      "title": "Directive (EU) 2023/2413 on the promotion of renewable energy (RED III)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023L2413",
+      "source_uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023L2413",
+      "author_or_org": "European Parliament and Council",
+      "publication_date": "2023-10-31",
+      "access_date": "2026-09-29",
+      "source_type": "law",
+      "source_tier": "primary",
+      "access_status": "official_record",
+      "origin_cluster": "EUR-Lex",
+      "supplied_by_author": false,
+      "contribution": "Legal text of the RFNBO targets for industry and transport",
+      "limitations": ""
+    },
+    {
+      "id": "S004",
+      "title": "Clean Hydrogen Partnership - Project Zagore Hydrogen Valley",
+      "url": "https://www.clean-hydrogen.europa.eu/projects-repository/zagore-valley_en",
+      "source_uri": "https://www.clean-hydrogen.europa.eu/projects-repository/zagore-valley_en",
+      "author_or_org": "Clean Hydrogen Joint Undertaking",
+      "publication_date": "2023-11-15",
+      "access_date": "2026-09-29",
+      "source_type": "official",
+      "source_tier": "primary",
+      "access_status": "full_text",
+      "origin_cluster": "Clean Hydrogen JU",
+      "supplied_by_author": false,
+      "contribution": "Official project profile, timeline and funding of the Zagore hydrogen valley",
+      "limitations": ""
+    }
+  ],
+  "searches": [
+    {
+      "id": "Q001",
+      "claim_ids": [
+        "C0001"
+      ],
+      "query": "\"IEA\" \"Global Hydrogen Review 2024\" Europe installed capacity electrolysis",
+      "kind": "primary",
+      "language": "en",
+      "run_date": "2026-09-29",
+      "surface": "web",
+      "status": "completed",
+      "result_note": "Found the full IEA report with country-level statistics."
+    },
+    {
+      "id": "Q002",
+      "claim_ids": [
+        "C0002"
+      ],
+      "query": "European Hydrogen Bank pilot auction 720 million award results",
+      "kind": "exact",
+      "language": "en",
+      "run_date": "2026-09-29",
+      "surface": "web",
+      "status": "completed",
+      "result_note": "Confirmed by the European Commission press release of 30 April 2024."
+    },
+    {
+      "id": "Q003",
+      "claim_ids": [
+        "C0003",
+        "C0004"
+      ],
+      "query": "LCOH green hydrogen cost vs fossil SMR Europe 2024 EUR per kg",
+      "kind": "scholarly",
+      "language": "en",
+      "run_date": "2026-09-29",
+      "surface": "web",
+      "status": "completed",
+      "result_note": "Comparative IEA and BNEF analysis of clean hydrogen production costs."
+    },
+    {
+      "id": "Q004",
+      "claim_ids": [
+        "C0005"
+      ],
+      "query": "Directive (EU) 2023/2413 RED III Article 22a RFNBO industry 42 percent",
+      "kind": "primary",
+      "language": "en",
+      "run_date": "2026-09-29",
+      "surface": "web",
+      "status": "completed",
+      "result_note": "EUR-Lex text of Directive 2023/2413."
+    },
+    {
+      "id": "Q005",
+      "claim_ids": [
+        "C0006",
+        "C0007"
+      ],
+      "query": "Zagore hydrogen valley Stara Zagora funding 8.2 million EUR Clean Hydrogen JU",
+      "kind": "primary",
+      "language": "en",
+      "run_date": "2026-09-29",
+      "surface": "web",
+      "status": "completed",
+      "result_note": "Official sources for the Stara Zagora project."
+    }
+  ],
+  "limitations": [
+    "Illustrative example: the verdicts and findings shown have not been independently verified for publication."
+  ],
+  "unchecked_items": [
+    "Before real use, check every claim against the cited primary source and the exact locator."
+  ]
+}
